@@ -1,0 +1,131 @@
+.articles{
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.articles .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-item .img{
+    height: 265px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.article-item:first-child .img{
+    background: url('src/img/draw1.jpg');
+    background-size: cover;
+}
+
+.article-item:nth-child(2) .img{
+    background: url('src/img/draw2.jpeg');
+    background-size: cover;
+}
+
+.article-item:nth-child(3) .img{
+    background: url('src/img/draw3.jpg');
+    background-size: cover;
+}
+
+.articles hr{
+    width: 300px;
+    padding-top: 5px;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+.articles h3{
+    padding-top: 35px;
+}
+
+.article-item h3{
+    font-size: 20px;
+}
+
+.article-item .article-text{
+    font-size: 13px;
+    padding-top: 30px;
+}
+
+.article-item .small-text{
+    font-size: 12px;
+    text-align: center;
+    padding: 45px 30px 0;
+    font-family: 'Joan', serif;
+}
+
+.quote{
+    margin-top: 90px;
+    font-family: 'Joan', serif;
+}
+
+.quote .container{
+    display: flex;
+    align-items: center;
+}
+
+.quote .bracket{
+    color: #b5b7b8;
+    font-size: 110px;
+}
+
+.quote .bracket-text{
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.news{
+    padding-top: 90px;
+    font-family: 'Roboto', sans-serif;
+    /* padding-bottom: 270px; */
+}
+
+.news .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .main-news{
+    width: 620px;
+}
+
+
+.news .main-news .news-text{
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+.news .right-news{
+    width: 260px;
+    color: #545555;
+}
+
+.news .right-news li{
+    padding-top: 30px;
+}
+
+.news .right-news li a{
+    text-decoration: none;
+    color: #545555;
+}
+
+
+.news .right-news li{
+    list-style: none;
+}
+
+.news .right-news li a:hover{
+    color: #000;
+}
+
+
+.last-hr{
+    border: none;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}

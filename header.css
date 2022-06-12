@@ -1,0 +1,67 @@
+.header{
+    background: url('src/img/clouds.png') no-repeat;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.header ul li{
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header ul li a:hover{
+    color:dimgrey;
+}
+
+.header ul li img{
+    width: 237px;
+    height: 175px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Joan', serif;
+}
+
+.title h1, h2{
+    width: 355px;
+    margin: 0 auto;
+}
+
+.title h1{
+    letter-spacing: 0.55em;
+    font-size: 54px;
+    padding-top: 30px;
+}
+
+.title h2{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 18px;
+}
+
+.title hr{
+    width: 355px;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+}
+.text p{
+    padding-top: 70px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
